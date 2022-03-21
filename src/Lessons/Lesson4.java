@@ -57,9 +57,9 @@ public class Lesson4 {
 
  */
         //Functions
-//        power(x,y) -> z=x в степени y
+//        Math.pow(x,y) -> z=x в степени y
 
-//        replace(str, oldChars, newChars)
+//        str.replace(str, 'oldChars', 'newChars')
 //        String str33 = "Hello!";
 //        Replace(str33, "e", "*"); //-----???
 
@@ -94,23 +94,26 @@ public class Lesson4 {
 
         //одномерный и многомерный массивы
 
-//        int[] a = {8,2,3,5};
+//        int[] a = {8, 2, 3, 5};
 
-/*        int[][] b = {{1,2},{3,4,5}}; //многомерный (двумерный) массив
+        int[][] b = {{1, 2}, {3, 4, 5}}; //многомерный (двумерный) массив
 
 
-//        for (int i = 0;i < a.length; i = i +1) {
+//        for (int i = 0; i < a.length; i = i + 1) {
 //            System.out.println(a[i]);
 
-            for (int i2 = 0;i2 < b.length; i2 = i2 + 1) {
-                for (int j = 0;j < b[i2].length;j = j + 1) {
+            for (int i2 = 0; i2 < b.length; i2 = i2 + 1) {
+                for (int j = 0; j < b[i2].length; j = j + 1) {
                     System.out.println(b[i2][j]);
                 }
             }
-
- */
-
         }
+    }
+//}
+
+
+
+
 
 
 //        for HW:
@@ -121,6 +124,6 @@ public class Lesson4 {
 
 
 
-    }
+
 
 

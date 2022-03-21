@@ -1,0 +1,261 @@
+Index: src/Practise.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Practise.java b/src/Practise/Practise.java
+rename from src/Practise.java
+rename to src/Practise/Practise.java
+--- a/src/Practise.java	(revision f78a0e70de864f022423c846543ef547332769a3)
++++ b/src/Practise/Practise.java	(date 1647391519795)
+@@ -1,3 +1,5 @@
++package Practise;
++
+ public class Practise {
+     public static void main(String [] args) {
+ //        String i = "test";
+Index: src/Lesson2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Lesson2.java b/src/Lessons/Lesson2.java
+rename from src/Lesson2.java
+rename to src/Lessons/Lesson2.java
+--- a/src/Lesson2.java	(revision f78a0e70de864f022423c846543ef547332769a3)
++++ b/src/Lessons/Lesson2.java	(date 1647391519785)
+@@ -1,3 +1,5 @@
++package Lessons;
++
+ public class Lesson2 {
+ 
+     public static void main(String[] args) {
+Index: src/Lesson1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Lesson1.java b/src/Lessons/Lesson1.java
+rename from src/Lesson1.java
+rename to src/Lessons/Lesson1.java
+--- a/src/Lesson1.java	(revision f78a0e70de864f022423c846543ef547332769a3)
++++ b/src/Lessons/Lesson1.java	(date 1647391461358)
+@@ -1,3 +1,5 @@
++package Lessons;
++
+ public class Lesson1 {
+     public static void main(String[] args) {
+         System.out.println("Hello world!");
+Index: src/HomeWork/HW_3_2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package HomeWork;\r\n\r\npublic class HW_3_2 {\r\n    public static void main(String[] args) {\r\n\r\n        for (int i = 0; i <= 15; i = i + 1) {\r\n            System.out.println(i);\r\n        }\r\n\r\n        {\r\n            for (double i2 = 5; i2 < 10000; i2 = i2 * 5) {\r\n                System.out.println(i2);\r\n            }\r\n        }\r\n\r\n        {\r\n            for (int i3 = 40; i3 <= 60; i3++) {\r\n                if ((i3 % 4) == 0) {\r\n                    System.out.println(i3);\r\n                }\r\n            }\r\n        }\r\n\r\n        {\r\n            for (int i4 = 40; i4 <= 60; i4 = i4 + 4) {\r\n                System.out.println(i4);\r\n            }\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/HomeWork/HW_3_2.java b/src/HomeWork/HW_3_2.java
+--- a/src/HomeWork/HW_3_2.java	(revision f78a0e70de864f022423c846543ef547332769a3)
++++ b/src/HomeWork/HW_3_2.java	(date 1647390635364)
+@@ -2,17 +2,18 @@
+ 
+ public class HW_3_2 {
+     public static void main(String[] args) {
++        String str = "-------------";
+ 
+         for (int i = 0; i <= 15; i = i + 1) {
+             System.out.println(i);
+         }
+-
++        System.out.println(str);
+         {
+-            for (double i2 = 5; i2 < 10000; i2 = i2 * 5) {
++            for (int i2 = 5; i2 < 10000; i2 = i2 * 5) {
+                 System.out.println(i2);
+             }
+         }
+-
++        System.out.println(str);
+         {
+             for (int i3 = 40; i3 <= 60; i3++) {
+                 if ((i3 % 4) == 0) {
+@@ -20,7 +21,7 @@
+                 }
+             }
+         }
+-
++        System.out.println(str);
+         {
+             for (int i4 = 40; i4 <= 60; i4 = i4 + 4) {
+                 System.out.println(i4);
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"62a4b998-6696-4c2f-b395-77a435de4e9e\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package-info\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"25UjJp7lVj0ZzbJFfWeiMDVpxQy\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"android.sdk.path\" value=\"$USER_HOME$/AppData/Local/Android/Sdk\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.general\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.HW_3_2\">\r\n    <configuration name=\"HW_3_1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HomeWork.HW_3_1\" />\r\n      <module name=\"JavaCourse\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"HomeWork.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"HW_3_2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HomeWork.HW_3_2\" />\r\n      <module name=\"JavaCourse\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"HomeWork.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lesson2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Lesson2\" />\r\n      <module name=\"JavaCourse\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lesson3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Lessons.Lesson3\" />\r\n      <module name=\"JavaCourse\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Lessons.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Practise\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Practise\" />\r\n      <module name=\"JavaCourse\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.HW_3_2\" />\r\n        <item itemvalue=\"Application.HW_3_1\" />\r\n        <item itemvalue=\"Application.Lesson3\" />\r\n        <item itemvalue=\"Application.Practise\" />\r\n        <item itemvalue=\"Application.Lesson2\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"62a4b998-6696-4c2f-b395-77a435de4e9e\" name=\"Changes\" comment=\"\" />\r\n      <created>1645588498115</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1645588498115</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/Java_Course$HW1.ic\" NAME=\"HW1 Coverage Results\" MODIFIED=\"1645673028468\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f78a0e70de864f022423c846543ef547332769a3)
++++ b/.idea/workspace.xml	(date 1647391540601)
+@@ -1,7 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="" />
++    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_3_1.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_3_2.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Lesson1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson1.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Lesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson2.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practise/Practise.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -15,10 +22,20 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="25UjJp7lVj0ZzbJFfWeiMDVpxQy" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -60,7 +77,7 @@
+       </method>
+     </configuration>
+     <configuration name="Lesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Lesson2" />
++      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson2" />
+       <module name="JavaCourse" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -80,7 +97,7 @@
+       </method>
+     </configuration>
+     <configuration name="Practise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Practise" />
++      <option name="MAIN_CLASS_NAME" value="Practise.Practise" />
+       <module name="JavaCourse" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -106,6 +123,17 @@
+       <updated>1645588498115</updated>
+     </task>
+     <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/Java_Course$HW1.ic" NAME="HW1 Coverage Results" MODIFIED="1645673028468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+Index: src/HomeWork/HW_3_1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package HomeWork;\r\n\r\npublic class HW_3_1 {\r\n    public static void main(String[] args) {\r\n\r\n        int a = 44;\r\n        int b = 99;\r\n\r\n/*        if (a == b) {\r\n            System.out.println(\"a == b\");\r\n        } else { if (a < b) {\r\n            System.out.println(\"a < b\");\r\n        } else { if (a > b) {\r\n            System.out.println(\"a > b\");\r\n                }\r\n            }\r\n        }\r\n\r\n */\r\n\r\n/*        if (((a + b) % 2) == 0) {\r\n            System.out.println(\"maybe a and b are even\");\r\n        } else {\r\n            System.out.println(\"some variable is odd\");\r\n        }\r\n\r\n */\r\n\r\n/*        int c = 71;\r\n\r\n        if (c > 10) {\r\n            System.out.println(\"больше 10\");\r\n        } if (c < 100) {\r\n            System.out.println(\"меньше 100\");\r\n        } if ((c / 2) > 20) {\r\n            System.out.println(\"результат деления на 2 больше 20\");\r\n        } if (c >= 5 && c <= 40) {\r\n            System.out.println(\"значение переменной между 5 и 40 включительно\");\r\n        } if (c < 5 || c > 40) {\r\n            System.out.println(\"значение переменной меньше 5 или больше 40\");\r\n        }\r\n    }\r\n}\r\n\r\n */\r\n\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/HomeWork/HW_3_1.java b/src/HomeWork/HW_3_1.java
+--- a/src/HomeWork/HW_3_1.java	(revision f78a0e70de864f022423c846543ef547332769a3)
++++ b/src/HomeWork/HW_3_1.java	(date 1647390332378)
+@@ -6,44 +6,45 @@
+         int a = 44;
+         int b = 99;
+ 
+-/*        if (a == b) {
+-            System.out.println("a == b");
+-        } else { if (a < b) {
+-            System.out.println("a < b");
+-        } else { if (a > b) {
+-            System.out.println("a > b");
+-                }
+-            }
+-        }
++//       if (a == b) {
++//            System.out.println("a == b");
++//        } else { if (a < b) {
++//            System.out.println("a < b");
++//        } else { if (a > b) {
++//            System.out.println("a > b");
++//                }
++//            }
++//        }
+ 
+- */
+ 
+-/*        if (((a + b) % 2) == 0) {
+-            System.out.println("maybe a and b are even");
+-        } else {
+-            System.out.println("some variable is odd");
+-        }
+ 
+- */
++//        if (((a + b) % 2) == 0) {
++//            System.out.println("maybe a and b are even");
++//        } else {
++//            System.out.println("some variable is odd");
++//        }
+ 
+-/*        int c = 71;
+ 
+-        if (c > 10) {
+-            System.out.println("больше 10");
+-        } if (c < 100) {
+-            System.out.println("меньше 100");
+-        } if ((c / 2) > 20) {
+-            System.out.println("результат деления на 2 больше 20");
+-        } if (c >= 5 && c <= 40) {
+-            System.out.println("значение переменной между 5 и 40 включительно");
+-        } if (c < 5 || c > 40) {
+-            System.out.println("значение переменной меньше 5 или больше 40");
++
++//        int c = 71;
++//
++//        if (c > 10) {
++//            System.out.println("больше 10");
++//        } if (c < 100) {
++//            System.out.println("меньше 100");
++//        } if ((c / 2) > 20) {
++//            System.out.println("результат деления на 2 больше 20");
++//        } if (c >= 5 && c <= 40) {
++//            System.out.println("значение переменной между 5 и 40 включительно");
++//        } if (c < 5 || c > 40) {
++////            можно использовать else вместо if
++//            System.out.println("значение переменной меньше 5 или больше 40");
+         }
+-    }
+-}
++//    }
++//}
+ 
+- */
++
+ 
+ 
+     }
+-}
+\ No newline at end of file
++//}
+\ No newline at end of file
