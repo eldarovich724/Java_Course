@@ -96,19 +96,19 @@ public class Lesson4 {
 
 //        int[] a = {8, 2, 3, 5};
 
-        int[][] b = {{1, 2}, {3, 4, 5}}; //многомерный (двумерный) массив
-
-
-//        for (int i = 0; i < a.length; i = i + 1) {
-//            System.out.println(a[i]);
-
-            for (int i2 = 0; i2 < b.length; i2 = i2 + 1) {
-                for (int j = 0; j < b[i2].length; j = j + 1) {
-                    System.out.println(b[i2][j]);
-                }
+//        int[][] b = {{1, 2}, {3, 4, 5}}; //многомерный (двумерный) массив
+//
+//
+//        for (int i = 0; i < b.length; i = i + 1) {
+//            System.out.println(b[i]);
+//
+//            for (int i2 = 0; i2 < b.length; i2 = i2 + 1) {
+//                for (int j = 0; j < b[i2].length; j = j + 1) {
+//                    System.out.println(b[i2][j]);
+//                }
             }
         }
-    }
+
 //}
 
 
