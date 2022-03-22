@@ -96,18 +96,27 @@ public class Lesson4 {
 
 //        int[] a = {8, 2, 3, 5};
 
-//        int[][] b = {{1, 2}, {3, 4, 5}}; //многомерный (двумерный) массив
+//        int[][] b = {{1, 2}, {3, 4, 5}}; //многомерный (двумерный или массив массивов) массив
 //
 //
 //        for (int i = 0; i < b.length; i = i + 1) {
 //            System.out.println(b[i]);
 //
-//            for (int i2 = 0; i2 < b.length; i2 = i2 + 1) {
-//                for (int j = 0; j < b[i2].length; j = j + 1) {
+//            for (int i2 = 0; i2 < b.length; i2 = i2 + 1) {        //цикл проходит по номерам строк
+//                for (int j = 0; j < b[i2].length; j = j + 1) {    //цикл проходит по номерам столюцов
 //                    System.out.println(b[i2][j]);
 //                }
-            }
-        }
+
+//        //equals проверяет есть ли повторение строки в заданной переменной String
+//
+//        String s1 = "Summer is here";
+//
+//        if ("Summer".equals(s1)) {
+//            System.out.println("s1 = " + "Summer");
+//        } else System.out.println("s1 != " + "Summer");
+    }
+}
+
 
 //}
 

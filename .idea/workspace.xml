@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="Lesson4">
+    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_4_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +32,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.jdks/openjdk-17.0.2/lib/src.zip!/java.base/java/lang/ArrayIndexOutOfBoundsException.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,12 +48,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="ReaderModeSettings">
-    <option name="enabled" value="false" />
-  </component>
-  <component name="RunManager" selected="Application.HW_4_1">
+  <component name="RunManager" selected="Application.HW_4_2">
     <configuration name="HW_4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork.HW_4_1" />
       <module name="JavaAdvanced" />
@@ -123,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW_4_2" />
         <item itemvalue="Application.HW_4_1" />
+        <item itemvalue="Application.Lesson4" />
         <item itemvalue="Application.Practise_2" />
         <item itemvalue="Application.Practiese_2" />
-        <item itemvalue="Application.Lesson4" />
-        <item itemvalue="Application.HW_4_2" />
       </list>
     </recent_temporary>
   </component>
