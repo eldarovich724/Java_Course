@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="finished HW4. need to repeat and try to find or create some tasks.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/WorkMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_15_2022_9_01_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_15_2022_9_01_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="lesson5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647985065443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson5">
+      <created>1648172964173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648172964173</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson5">
+      <created>1648173011622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648173011622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson4" />
     <MESSAGE value="finished HW4. need to repeat and try to find or create some tasks." />
-    <option name="LAST_COMMIT_MESSAGE" value="finished HW4. need to repeat and try to find or create some tasks." />
+    <MESSAGE value="lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
