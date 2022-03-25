@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="updated">
+    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="finished HW4. need to repeat and try to find or create some tasks.">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lessons/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lessons/WorkMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_15_2022_9_01_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_15_2022_9_01_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_4_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +51,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.HW_4_2">
+  <component name="RunManager" selected="Application.Lesson5">
     <configuration name="HW_4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork.HW_4_1" />
       <module name="JavaAdvanced" />
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practiese_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practise.Practiese_2" />
+    <configuration name="Lesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson5" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practise.*" />
+          <option name="PATTERN" value="Lessons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practise_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practise.Practise_2" />
+    <configuration name="Practice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practise.Practice3" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson5" />
+        <item itemvalue="Application.Practice3" />
         <item itemvalue="Application.HW_4_2" />
         <item itemvalue="Application.HW_4_1" />
         <item itemvalue="Application.Lesson4" />
-        <item itemvalue="Application.Practise_2" />
-        <item itemvalue="Application.Practiese_2" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647392753867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished HW4. need to repeat and try to find or create some tasks.">
+      <created>1647985065443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647985065443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson4" />
+    <MESSAGE value="finished HW4. need to repeat and try to find or create some tasks." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished HW4. need to repeat and try to find or create some tasks." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
