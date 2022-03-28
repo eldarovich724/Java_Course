@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="lesson5" />
+    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="lesson5">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW_5_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW_5_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/ArithmeticMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practise/Practice_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practise/p5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAdvanced.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson5.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +47,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -45,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Lesson5">
+  <component name="RunManager" selected="Application.HW_5_1">
     <configuration name="HW_4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork.HW_4_1" />
       <module name="JavaAdvanced" />
@@ -59,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW_4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork.HW_4_2" />
+    <configuration name="HW_5_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork.HW_5_1" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson4" />
+    <configuration name="HW_5_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork.HW_5_2" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.*" />
+          <option name="PATTERN" value="HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson5" />
+    <configuration name="Practice_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practise.Practice_3" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.*" />
+          <option name="PATTERN" value="Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practise.Practice3" />
+    <configuration name="p5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practise.p5" />
       <module name="JavaAdvanced" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson5" />
-        <item itemvalue="Application.Practice3" />
-        <item itemvalue="Application.HW_4_2" />
+        <item itemvalue="Application.HW_5_1" />
+        <item itemvalue="Application.Practice_3" />
+        <item itemvalue="Application.HW_5_2" />
+        <item itemvalue="Application.p5" />
         <item itemvalue="Application.HW_4_1" />
-        <item itemvalue="Application.Lesson4" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648173011622</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson5">
+      <created>1648173115444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648173115444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
