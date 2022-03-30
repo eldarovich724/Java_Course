@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="lesson5">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW_5_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW_5_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/ArithmeticMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practise/Practice_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practise/p5.java" afterDir="false" />
+    <list default="true" id="62a4b998-6696-4c2f-b395-77a435de4e9e" name="Changes" comment="HW5">
+      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lessons/Person6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_21_2022_8_39_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_21_2022_8_39_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAdvanced.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW_4_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +55,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.HW_5_1">
-    <configuration name="HW_4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork.HW_4_1" />
-      <module name="JavaAdvanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lesson6">
     <configuration name="HW_5_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork.HW_5_1" />
       <module name="JavaAdvanced" />
@@ -92,6 +75,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson6" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lessons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson6" />
         <item itemvalue="Application.HW_5_1" />
         <item itemvalue="Application.Practice_3" />
         <item itemvalue="Application.HW_5_2" />
         <item itemvalue="Application.p5" />
-        <item itemvalue="Application.HW_4_1" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648173115444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW5">
+      <created>1648430606411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648430606411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +207,8 @@
     <MESSAGE value="Lesson4" />
     <MESSAGE value="finished HW4. need to repeat and try to find or create some tasks." />
     <MESSAGE value="lesson5" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
+    <MESSAGE value="HW5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
